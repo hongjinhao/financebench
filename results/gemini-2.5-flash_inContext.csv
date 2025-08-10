@@ -1,0 +1,48 @@
+,provider,model_name,eval_mode,temp,max_tokens,financebench_id,question,gold_answer,model_answer,retrieved_documents
+0,google,gemini-2.5-flash,inContext,0.01,2048,financebench_id_03029,What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.,$1577.00,"Based on the Consolidated Statement of Cash Flows for the year ended December 31, 2018, 3M's capital expenditure amount (Purchases of property, plant and equipment (PP&E)) was **$1,577 million USD**.",[]
+1,google,gemini-2.5-flash,inContext,0.01,2048,financebench_id_04672,Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.,$8.70,"To find the year-end FY2018 net PPNE for 3M, we refer to the Consolidated Balance Sheet.
+
+From the ""3M Company and Subsidiaries Consolidated Balance Sheet at December 31"":
+
+*   **Property, plant and equipment — net** for **December 31, 2018** is **$8,738 million**.
+
+Converting this to USD billions:
+$8,738 million = $8.738 billion
+
+The year-end FY2018 net PPNE for 3M is **$8.738 billion**.",[]
+2,google,gemini-2.5-flash,inContext,0.01,2048,financebench_id_00499,Is 3M a capital-intensive business based on FY2022 data?,"No, the company is managing its CAPEX and Fixed Assets pretty efficiently, which is evident from below key metrics:
+CAPEX/Revenue Ratio: 5.1%
+Fixed assets/Total Assets: 20%
+Return on Assets= 12.4%","Yes, based on its FY2022 data, 3M is a capital-intensive business.
+
+Here's the supporting data from the FY2022 filing:
+
+1.  **Property, Plant, and Equipment (PP&E) - Net:**
+    *   As of December 31, 2022, 3M reported **$9,178 million** in Property, Plant and Equipment - net (Consolidated Balance Sheet, page 50).
+    *   When compared to total assets of **$46,455 million**, PP&E represents approximately **19.75%** of total assets.
+    *   When compared to net sales of **$34,229 million** for FY2022, PP&E represents approximately **26.81%** of net sales.
+
+2.  **Capital Expenditures (CapEx):**
+    *   For the year ended December 31, 2022, 3M's purchases of property, plant and equipment (capital spending) were **$1,749 million** (Consolidated Statement of Cash Flows, page 52, and Geographic Area Supplemental Information, page 33).
+    *   This represents approximately **5.11%** of net sales ($1,749 million / $34,229 million).
+    *   The company also states its intention to continue significant capital spending: ""The Company expects 2023 capital spending to be approximately $1.5 billion to $1.8 billion as 3M continues to invest in growth, productivity and sustainability"" (page 39).
+
+3.  **Depreciation and Amortization:**
+    *   For the year ended December 31, 2022, depreciation and amortization expense was **$1,831 million** (Consolidated Statement of Cash Flows, page 52).
+    *   This represents approximately **5.35%** of net sales ($1,831 million / $34,229 million).
+
+**Conclusion:**
+The substantial amount of net PP&E, the significant annual capital expenditures (over $1.7 billion in 2022, with similar projections for 2023), and the high depreciation and amortization expense all indicate that 3M requires considerable investment in physical assets to operate and grow its business. This is consistent with its description as a ""diversified global manufacturer"" that operates numerous manufacturing and converting facilities worldwide (page 16). Therefore, 3M is a capital-intensive business.",[]
+3,google,gemini-2.5-flash,inContext,0.01,2048,financebench_id_01226,"What drove operating margin change as of FY2022 for 3M? If operating margin is not a useful metric for a company like this, then please state that and explain why.","Operating Margin for 3M in FY2022 has decreased by 1.7% primarily due to: 
+-Decrease in gross Margin
+-mostly one-off charges including Combat Arms Earplugs litigation, impairment related to exiting PFAS manufacturing, costs related to exiting Russia and divestiture-related restructuring
+charges",,[]
+4,google,gemini-2.5-flash,inContext,0.01,2048,financebench_id_01865,"If we exclude the impact of M&A, which segment has dragged down 3M's overall growth in 2022?",The consumer segment shrunk by 0.9% organically.,"To determine which segment dragged down 3M's overall growth in 2022, excluding the impact of M&A, we need to look at the ""Organic sales"" column in the ""Worldwide Sales Change By Business Segment"" table for the year ended December 31, 2022.
+
+From the table:
+*   **Safety and Industrial:** Organic sales increased by 1.0%.
+*   **Transportation and Electronics:** Organic sales increased by 1.2%.
+*   **Health Care:** Organic sales increased by 3.2%.
+*   **Consumer:** Organic sales decreased by (0.9)%.
+
+Excluding the impact of M&A (acquisitions and divestitures), the **Consumer** segment had negative organic sales growth of (0.9)%, indicating it dragged down 3M's overall growth in 2022.",[]
